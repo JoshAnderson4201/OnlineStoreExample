@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+html {
+	background-image: url(images/website+background.jpg);
+	background-size: 100%;
+}
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	width: 900px;
+	margin: 0 auto;
+}
+body header {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+body header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 900px;
+	top: 30px;
+}
+#TopNavBar {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000000;
+	width: 900px;
+}
+#TopNavBar li {
+	float: left;
+}
+#TopNavBar li a {
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+#TopNavBar li a:hover, .dropdown:hover .dropbtn {
+	background:#B1D8CE;
+	color:black;
+}
+
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color:#000000;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	background-color:#92C8BA;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color:#DFEFEB;
+	color:#000000;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+footer {
+	bottom: 0;
+	margin: 0 auto;
+	background: #448776;
+	width: 894px;
+}
+ #Wrapper {
+	 width: 894px;
+	 height: 100%;
+	 margin: 0 auto;
+	 background: #F8F8F8;
+	 border-style: solid;
+	 border-color: #438675;
+	 border-top: none;
+	 text-align:left;
+	 height:auto;
+ }
+ 
+ #LoginHeading {
+ 	text-align: right;
+	background:#000000;
+	color: white;
+ }
+ 
+ #LoginHeading a:link {
+	 text-decoration: none;
+	 color: white
+ }
+ 
+ #LoginHeading a:hover {
+	 color: #448776;
+ }
+ 
+ #LoginHeading a:visited {
+	 color: white;
+ }
+ 
+ h2 {
+	 padding: 10px;
+ }
+ 
+ #date {
+	 display: inline;
+	 text-align:right;
+ }
+ 
+ #tableformat {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 880px;
+	border-collapse: collapse;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+
+#tableformat td, #tableformat th {
+	font-size: 1em;
+	border: 1px solid #000;
+	padding: 3px 7px 2px 7px;
+}
+
+#tableformat th {
+	font-size: 1.1em;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	background-color: #296253;
+	color: #fff;
+}
+
+#tableformat td {
+	background-color: #FFF;
+	czolor: #000;
+}
+	 

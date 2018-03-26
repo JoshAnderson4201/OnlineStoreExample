@@ -1,0 +1,35 @@
+#Purchased {
+	margin-top: 0px;
+}
+
+fieldset {
+	border: none;
+	margin-top:10px;
+ }
+ 
+ .contactbox {
+	clear: left;
+	padding: 5px;
+	line-height: 1.25em;
+	font-size: large;
+	margin-top: 5px;
+}
+
+legend {
+	color: #1F3F37;
+	font: bold;
+	font-weight: normal;
+}
+
+.button_style {
+	background-color:#448776;
+	width: 160px;
+	color: white;
+	font-size: 16px;
+	padding: 5px;
+	font-weight: bolder;
+}
+
+h2 {
+	padding: 10px;
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<?php session_start()?>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<meta charset="utf-8">
+
+<title>Pick-Pocket Longboards</title>
+
+<link href="HomeStyle.css" rel="stylesheet" type="text/css">
+<link href="PickPocketCSS.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="rotate.js"></script>
+
+</head>
+
+<body onLoad = "startRotation()">
+
+<?php include "Menu.php";?>
+
+<div id="Wrapper">
+
+<div id = "Content">
+
+<div id="imageRotate">
+<img src="" width="300px" id="placeHolder"/>
+</div>
+
+<p>
+
+Pick Pocket Longboards was established in 2015, and is the result of a dream. All of the boards made by Pick Pocket are handcrafted in New York, and are tested and inspected to enure utmost quality. While we love helping longboarders shred fun decks, we also want to help our planet. A portion of the earnings from every deck will be donated towards replenishing our forests here in the United States. So remember, while riding your Pick Pocket through the environment, you're helping that environment at the same time!
+</p>
+
+</div>
+
+<?php include "footer.php" ?>
+
+</div>
+</body>
+</html>
